@@ -73,7 +73,7 @@ export default function ChatScreen() {
                 setLoading(false)
                 const chatAIResp={
                     _id: Math.random()* (9999999 - 1),
-                    text: "Sorry, I can not help with it",
+                    text: "Sorry, I can not help with it, Try To ask something else",
                     createdAt: new Date(),
                     user: {
                       _id: 2,
